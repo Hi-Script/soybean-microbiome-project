@@ -1,0 +1,30 @@
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# QIIME 2 artifacts / visualizations
+*.qza
+*.qzv
+
+# Generated MultiQC directory
+multiqc_data/
+
+# Logs / temporary
+*.log
+*.tmp
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
