@@ -3,7 +3,7 @@
 **Project status:** 🟡 In progress  
 **Current stage:** SILVA 138 / QIIME 2 VSEARCH taxonomic classification
 
-This repository documents the computational analysis of publicly available soybean root-associated bacterial 16S rRNA sequencing data from **NCBI BioProject PRJNA970087**.
+This repository documents the computational re-analysis of publicly available soybean root-associated bacterial 16S rRNA sequencing data from **NCBI BioProject PRJNA970087**.
 
 ## Research aim
 
