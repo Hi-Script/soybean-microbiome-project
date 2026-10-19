@@ -1,0 +1,18 @@
+analysis,measure,reported_value,interpretation_note
+DADA2,Reads after denoising,647119,11-sample main set; as reported in pipeline handbook
+DADA2,ASVs after denoising,6312,Before organelle filtering
+Taxonomy,ASVs with taxonomy match,6280/6312 (99.49%),As reported in pipeline handbook
+Organelle filtering,Features retained,6265,After filtering
+Organelle filtering,Reads retained,543195,After filtering
+Organelle filtering,ASVs removed,47,As reported in pipeline handbook
+Organelle filtering,Reads removed,103924 (16.06%),As reported in pipeline handbook
+Alpha diversity,Compartment p-value,0.0116,Reported significant; metric/test details to be linked to scripts
+PERMANOVA,Compartment,R2=0.6447; F=7.26; p=0.003,Exploratory; n=11
+PERMANOVA,Genotype,R2=0.0495; p=0.701,Exploratory; n=11
+PERMANOVA,Developmental stage,R2=0.1189; p=0.280,Exploratory; n=11
+Variance partitioning,Unique compartment adjusted R2,0.6095,Collinearity/small-sample cautions apply
+Variance partitioning,Unique stage adjusted R2,0.0869,Collinearity/small-sample cautions apply
+Variance partitioning,Unique genotype adjusted R2,0.006,Collinearity/small-sample cautions apply
+Random Forest,Compartment OOB accuracy,72.7%,Exploratory; not validated
+Random Forest,Stage OOB accuracy,54.5%,Exploratory; not validated
+Random Forest,Genotype OOB accuracy,18.2%,Exploratory; not validated
